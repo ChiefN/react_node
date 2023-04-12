@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+td, th{
+  text-align: left;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.dockertag {
+  color: purple;
+}
+
+.dockercomment{
+  color: green;
+}
+
+.dockertable tr{
+  border-bottom: solid 1px black;
+}
+
+.terminaltable tr{
+  border-bottom: solid 1px white;
+}
+
+.dockertable{
+  background-color: lightblue;
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+.dockertable tr td:first-child{
+  white-space: nowrap;
+}
+
+.terminaltable {
+  background-color: black;
+  color: white;
+}
+
+.terminalsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid white;
+  padding: 1rem;
+  object-fit: contain;
+}
+
+.terminalsection img {
+  max-width: 100%;
+}
